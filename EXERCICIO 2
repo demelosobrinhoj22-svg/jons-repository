@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    float valor ;
+ 
+printf("digite valor: ");
+scanf("%f", &valor);
+printf("%.1f\n", valor );
+if(valor >= 100){
+    printf("\nDESCONTO\n");
+}
+else{
+    printf("SEM DESCONTO \n");
+}
+return 0;
+}
