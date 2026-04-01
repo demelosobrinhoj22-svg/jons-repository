@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    float idade ;
+ 
+printf("digite idade: ");
+scanf("%f", &idade);
+printf("%.1f\n", idade );
+if(idade >= 18){
+    printf("\nPODE ENTRAR\n");
+}else if (idade >= 16){
+ printf("PODE ENTRAR COM RESPONSAVEL\n");
+}else {
+    printf("NAO PODE ENTRAR \n");
+}
+return 0;
+}
