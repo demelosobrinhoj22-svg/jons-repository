@@ -6,7 +6,7 @@ int main() {
 printf("digite valor: ");
 scanf("%f", &valor);
 printf("%.1f\n", valor );
-if(valor >= 100){
+if(valor > 100){
     printf("\nDESCONTO\n");
 }
 else{
